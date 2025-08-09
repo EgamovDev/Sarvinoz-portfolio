@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Port<span>folio</span></div>
+                <ul class="nav-links">
+                    <li><a href="#hero" id="linkla">Bosh sahifa</a></li>
+                    <li><a href="#about" id="linkla">Men haqimda</a></li>
+                    <li><a href="#portfolio" id="linkla">Portfolio</a></li>
+                    <li><a href="#contact" id="linkla">Aloqa</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Salom men <span>Sarvinoz Tairovna</span></h1>
+                    <p>Zamonaviy va sezgir veb-saytlarni yaratish tajribasiga ega ishtiyoqli veb-dasturchi. Men HTML,
+                        CSS, JavaScript va turli ramkalarga ixtisoslashganman.</p>
+                    <a href="#portfolio" class="btn btn-primary">Mening loyihalarim</a>
+                </div>
+                <div class="hero-image">
+                    <img src="./photo_2025-08-07_10-59-20.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Men haqimda</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./photo_2025-08-07_10-59-20.jpg" alt="About Image">
+                </div>
+                <div class="about-text">
+                    <h3>Men kimman?</h3>
+                    <p>Men veb-saytlar va veb-ilovalar yaratishda 5 yildan ortiq tajribaga ega professional
+                        veb-dasturchiman. Veb-ishlab chiqishdagi sayohatim kollejda o'qib yurgan paytlarimdan boshlangan
+                        va o'shandan beri turli mijozlar va kompaniyalar bilan ishlaganman.</p>
+                    <p>Men toza, samarali va foydalanuvchilarga qulay veb-saytlarni yaratishga ishonaman, ular nafaqat
+                        ajoyib ko'rinishga ega, balki barcha qurilmalarda juda yaxshi ishlaydi.</p>
+
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Node.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mening loyihalarim</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Hammasi</button>
+                <button class="filter-btn" data-filter="web">Veb-dizayn</button>
+                <button class="filter-btn" data-filter="app">Ilovalarni ishlab chiqish</button>
+                <button class="filter-btn" data-filter="graphic">Grafika dizayni</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="./card1.jpg" alt="Project 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>ArtDesign</h3>
+                        <p>Dizayner va rassomlar uchun mo'ljallangan maxsus veb-sayt</p>
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="./card2.jpg" alt="Project 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Sensorika.uz</h3>
+                        <p>Ko'plab IT o'quv markazlarining o'quvchi va o'qituvchilariga foydali bo'lgan sayt</p>
+                        <div class="portfolio-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-image">
+                        <img src="./card3.jpg" alt="Project 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Orpheus</h3>
+                        <p>Haykaltarosh va tasviriy san'atga qiziquvchilar uchun yaratilgan veb-sayt</p>
+                        <div class="portfolio-tags">
+                            <span>Illustrator</span>
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="./card4.jpg" alt="Project 4">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Uzum market</h3>
+                        <p>Onlayn buyurtmalar marketi</p>
+                        <div class="portfolio-tags">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="./Презентация1.jpg" alt="Project 5">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>MissDior</h3>
+                        <p>Ayollar va qizlar uchun parfyumeriyalar onlayn sahifasi</p>
+                        <div class="portfolio-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-image">
+                        <img src="./card6.jpg" alt="Project 6">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Evos fast food</h3>
+                        <p>Tez tayyor bo'ladigan ovqatlar veb-sayti</p>
+                        <div class="portfolio-tags">
+                            <span>InDesign</span>
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Men bilan bog'laning</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Aloqa qiling</h3>
+                    <p>Har qanday savol yoki imkoniyatlar uchun men bilan bog'laning. Men har doim yangi loyihalar,
+                        ijodiy g'oyalar yoki qarashlaringizning bir qismi bo'lish imkoniyatlarini muhokama qilishingiz
+                        mumkin.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+</svg></i>
+                            <span>Navoiy sh. Kamalak ko'chasi 265-hovli</span>
+                        </div>
+                        <div class="contact-item">
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+</svg></i>
+                            <span>sarvinozsafarova459@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg></i>
+                            <span>+998940012406</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ism</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Mavzu</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Xabar</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Xabar yuborish</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg></i></a>
+                <a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+</svg></i></a>
+                <a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+  <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+</svg></i></a>
+                <a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+</svg></i></a>
+                <a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+  <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+  <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/>
+</svg></i></a>
+            </div>
+            <p>&copy; 2024 Mening Portfolio. Barcha huquqlar himoyalangan</p>
+        </div>
+    </footer>
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
